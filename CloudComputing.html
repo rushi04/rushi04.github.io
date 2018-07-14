@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Project</title>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 	<script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  	<script>
+  		function videoPlay(argument) {
+  			// body...
+  			var s=document.getElementById("main-video");
+  			if(argument==1){
+  				s.src="https://www.youtube.com/embed/G2HkIar0G7k?";
+  			}else if (argument==2) {
+  				s.src="https://www.youtube.com/embed/LICA-ILkO4w?";
+  			}
+  			else if (argument==3) {
+  				s.src="https://www.youtube.com/embed/jOhbTAU4OPI?";
+  			}
+  		}
+  	</script>
+  	<style>
+		.button {
+	    	background-color: #4CAF50;
+	   		border: none;
+	    	color: white;
+	    	padding: 15px 32px;
+	    	text-align: center;
+	    	text-decoration: none;
+	    	display: inline-block;
+	    	font-size: 16px;
+	   	 	margin-left:auto;
+		    margin-right:auto;
+    		cursor: pointer;
+		}
+
+		.footer {
+ 			left: 0;
+		    bottom: 0;
+	    	width: 100%;
+   			background-color: black;
+    		color: white;
+    		text-align: center;
+		}
+
+		.pad{
+  			margin-top:2%;
+		}
+
+		.container img{
+			width: 50%;
+		}
+
+		.shdw{
+  			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		#v-link{
+			border-radius: 25px;
+			border-top-right-radius: 0px;
+			border-bottom-left-radius: 0px;
+		}
+		#v-link:hover{
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		.mar{
+			padding:1%;
+		}
+		.rad
+		{
+			radius:50%;
+		}
+		.btn-circle {
+			width: 30px;
+			height: 30px;
+  			text-align: center;
+  			padding: 6px 0;
+  			font-size: 12px;
+  			line-height: 1.428571429;
+  			border-radius: 15px;
+		}
+		.btn-circle.btn-lg {
+  			width: 50px;
+  			height: 50px;
+  			padding: 10px 16px;
+  			font-size: 18px;
+  			line-height: 1.33;
+  			border-radius: 25px;
+		}
+		.btn-circle.btn-xl {
+  			width: 70px;
+  			height: 70px;
+  			padding: 10px 16px;
+  			font-size: 24px;
+  			line-height: 1.33;
+  			border-radius: 35px;
+		}
+		li{
+			margin: 7px;
+			padding: 4px;
+		}
+		a{
+			color: black;
+		}
+		a:hover{
+			text-decoration: none;
+			color: black;
+		}
+		#deco{
+			border-left: 6px solid lightgrey;
+		    background-color: lightgrey;
+		}
+		#deco:hover{
+			border-left: 6px solid black;
+		    background-color: lightgrey;
+		}
+		.vdo{
+			padding: 1%;
+		}
+		.trends{
+			text-align: center;
+		}
+		.trends img{
+				margin: 15px auto;
+			}
+			#main-video{
+				border-radius: 5px;
+			}
+	</style>
+</head>
+<body style="height:1500px">
+  	<div class="container-fluid">
+    	<br>
+    	<img src="Logo.png" style="margin: -10px auto;">
+  	</div>
+ 	<nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top sticky-top shdw1">
+      	<a class="navbar-brand mb-0 h1" href="home1.html">Xplore</a>
+      	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcontent" arial-controls="navbarcontent" arial-expanded="false" arial-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      	</button>
+      
+      	<div class="collapse navbar-collapse" id="navbarcontent">
+        	<ul class="navbar-nav mr-auto">
+          		<li class="nav-item active">
+            		<a class="nav-link" href="home1.html">Home<span class="sr-only">(current)</span></a>
+          		</li>
+          		<li class="nav-item">
+           			<a class="nav-link" href="CSE.php">CSE</a>
+         		</li>
+          		<li class="nav-item dropdown">
+            		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+            		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          				<a class="dropdown-item" href="#">About US</a>
+          				<a class="dropdown-item" href="MeetOurTeam.html">Contact Us</a>
+          				<div class="dropdown-divider"></div>
+        			</div>
+          		</li>
+        	</ul>
+        	<ul class="navbar-nav mr-auto">
+          		<li class="nav-item">
+            		<a class="nav-link active" href="loginpage.html"><i class="fas fa-sign-in-alt"></i> Sign In<span class="sr-only">(current)</span></a>
+          		</li>
+          		<li class="nav-item">
+            		<a class="nav-link active" href="loginpage.html"><i class="fas fa-user-plus"></i> Sign Up</a>
+         		</li>          
+        	</ul>
+        	<form class="form-inline my-2 my-lg-0">
+        	 	<div class="input-group">
+          			<div class="input-group-prepend">
+           				<span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
+          			</div>
+          			<input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+         		</div>
+          		<button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-arrow-circle-right"></i></button>
+    		</form>
+        </div>
+    </nav>
+	<div class="container shdw mar">
+		<div class="row mar">
+			<div class="col-md-6 col-xs-12 justify-content-center vdo border" style="border-radius: 25px;">
+				<center>
+					<iframe width="420" height="315" id="main-video"src="https://www.youtube.com/embed/jOhbTAU4OPI?" allowtransparency="true" frameborder="0"></iframe>
+				</center>
+				<div class="col-md-12 col-xs-12 center">
+					<h4>Description</h4><p><span><i class="fa fa-quote-left fa-1x"></i></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Cloud computing is the on-demand delivery of compute power, database storage, applications, and other IT resources through a cloud services platform via the internet with pay-as-you-go pricing.</p>
+				</div>
+			</div>
+			<div class="col-md-6 col-xs-12">
+				<div class="row">
+				<div class="col-md-12 border " id="v-link" style=" margin: 2px;">Cloud Computing for beginners - What is cloud ?<button class="btn" style="margin: 5px;"  onclick="videoPlay(1)">Play</button>
+				</div>
+				<div class="col-md-12 border " id="v-link" style="border-radius: 25px border-;margin: 2px;">
+					Cloud Computing Tutorial for Beginners <button class="btn" style="margin: 5px;" onclick="videoPlay(2)" style="float: left;">Play</button>
+				</div>
+				<div class="col-md-12 border " id="v-link" style="margin: 2px;">
+					What is cloud computing<button class="btn" style="margin: 5px;"  onclick="videoPlay(3)">Play</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="row" style="margin: 5px; padding: 5px;">
+		<div class="col-xs-12 col-md-12">
+			<ul>
+				<li style="list-style: none;"><h5>Learn about CLoud Computing...</h5></li>
+				<li id="deco"><a href="https://hackernoon.com/cloud-computing-for-beginners-85d168959afb" target="_blank">Cloud Computing for Beginners</a><h7><b>source:</b>hackernoon.com</h7></li>
+				<li id="deco"><a href="https://medium.com/aws-enterprise-collection/the-fast-and-the-furious-how-the-evolution-of-cloud-computing-is-accelerating-builder-velocity-d4282d74a370" target="_blank"> The Fast and the Furious: How the Evolution of Cloud Computing Is Accelerating Builder Velocity</a><h7><b>source:</b>medium.com</h7></li>
+				
+			</ul>
+		</div>
+	</div>
+	<hr>
+	<div class="row" style="margin: 5px; padding: 5px;">
+		<div class="col-xs-12 col-md-12">
+			<h4>Treands And Analysis</h4>
+			<img src="" class="border" style="margin: 6px; border-radius: 5px;">
+			<div class="trends">
+				<img src="clouscomputing1.png">
+			</div>
+		</div>
+	</div>
+</div>
+
+<hr>
+<div class="footer" style="width:100%;">
+	<div class="row">
+		<div class="col-md-4" style="margin: 15px auto;"><b>Important Links</b><br>About Us<br><a href="MeetOurTeam.php" style="color: white;">Contact Us</a><br>CSE</div>
+		<div class="col-md-4" style="margin: 15px auto;"><b><a href="MeetOurTeam.html" style="color: white;">Meet Our Team</a></b><br>Siddharth kumar verma</b><br>Rohan Saxena</b><br>Rushikesh Ghule</b><br>Rishi Aggarwal</div>
+		<div class="col-md-4" style="margin: 15px auto;"><b><a href="home1.html" style="color: white;">Xplore</a></b><br><a href="Trending.html" style="color: white;">Trending and Hot Topics</a></div>
+	</div>
+	<i style="margin: auto 5px;" class="fab fa-instagram"></i> | <i style="margin: auto 5px;" class="fab fa-twitter"></i></center></div></div>
+ </div>
+</body>
+</html>
