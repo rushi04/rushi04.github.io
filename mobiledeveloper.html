@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Project</title>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 	<script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  	<script>
+  		function videoPlay(argument) {
+  			// body...
+  			var s=document.getElementById("main-video");
+       
+  			if(argument==1){
+  				s.src="https://www.youtube.com/embed/ooJSgsB5fIE";
+          document.getElementById("p1").innerHTML="my name is rishi";
+  			}else if (argument==2) {
+  				s.src="https://www.youtube.com/embed/2mh-N9_O_yI";
+           document.getElementById("p1").innerHTML="my name is ghule";
+  			}
+  			else if (argument==3) {
+  				s.src="https://www.youtube.com/embed/vvh1H795Vj0";
+           document.getElementById("p1").innerHTML="my name is software";
+  			}
+        else if (argument==4) {
+  				s.src="https://www.youtube.com/embed/O5R4XHw0PQ0";
+           document.getElementById("p1").innerHTML="my name is kaka";
+  			}
+        else if (argument==5) {
+  				s.src="https://www.youtube.com/embed/Mg7_XlP4gqA";
+           document.getElementById("p1").innerHTML="my name is raja";
+  			}
+  		}
+  	</script>
+  	<style>
+		.button {
+	    	background-color: #4CAF50;
+	   		border: none;
+	    	color: white;
+	    	padding: 15px 32px;
+	    	text-align: center;
+	    	text-decoration: none;
+	    	display: inline-block;
+	    	font-size: 16px;
+	   	 	margin-left:auto;
+		    margin-right:auto;
+    		cursor: pointer;
+		}
+
+		.footer {
+ 			left: 0;
+		    bottom: 0;
+	    	width: 100%;
+   			background-color: black;
+    		color: white;
+    		text-align: center;
+		}
+
+		.pad{
+  			margin-top:2%;
+		}
+
+		.shdw{
+  			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		#v-link{
+			border-radius: 25px;
+			border-top-right-radius: 0px;
+			border-bottom-left-radius: 0px;
+		}
+		#v-link:hover{
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		.mar{
+			padding:1%;
+		}
+		.rad
+		{
+			radius:50%;
+		}
+		.btn-circle {
+			width: 30px;
+			height: 30px;
+  			text-align: center;
+  			padding: 6px 0;
+  			font-size: 12px;
+  			line-height: 1.428571429;
+  			border-radius: 15px;
+		}
+		.btn-circle.btn-lg {
+  			width: 50px;
+  			height: 50px;
+  			padding: 10px 16px;
+  			font-size: 18px;
+  			line-height: 1.33;
+  			border-radius: 25px;
+		}
+		.btn-circle.btn-xl {
+  			width: 70px;
+  			height: 70px;
+  			padding: 10px 16px;
+  			font-size: 24px;
+  			line-height: 1.33;
+  			border-radius: 35px;
+		}
+      ul{
+        padding:0;
+        margin:0;
+        
+      }
+		li{
+			margin: 7px;
+			padding: 4px;
+      list-style-type:none;
+		}
+		a{
+			color: black;
+		}
+		a:hover{
+			text-decoration: none;
+			color: black;
+		}
+		#deco{
+			border-left: 6px solid lightgrey;
+		    background-color: lightgrey;
+		}
+		#deco:hover{
+			border-left: 6px solid black;
+		    background-color: lightgrey;
+		}
+		.vdo{
+			padding: 1%;
+		}
+		.trends{
+			text-align: center;
+		}
+		.trends img{
+				margin: 15px auto;
+			}
+			#main-video{
+				border-radius: 5px;
+			}
+	</style>
+</head>
+<body style="height:1500px">
+  	<div class="container-fluid">
+    	<br>
+    	<img src="Logo.png" style="margin: -10px auto;">
+  	</div>
+ 	<nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top sticky-top shdw1">
+      	<a class="navbar-brand mb-0 h1" href="home1.html">Xplore</a>
+      	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcontent" arial-controls="navbarcontent" arial-expanded="false" arial-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      	</button>
+      
+      	<div class="collapse navbar-collapse" id="navbarcontent">
+        	<ul class="navbar-nav mr-auto">
+          		<li class="nav-item active">
+            		<a class="nav-link" href="home1.html">Home<span class="sr-only">(current)</span></a>
+          		</li>
+          		<li class="nav-item">
+           			<a class="nav-link" href="CSE.php">CSE</a>
+         		</li>
+          		<li class="nav-item dropdown">
+            		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+            		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          				<a class="dropdown-item" href="#">About US</a>
+          				<a class="dropdown-item" href="MeetOurTeam.html">Contact Us</a>
+          				<div class="dropdown-divider"></div>
+        			</div>
+          		</li>
+        	</ul>
+        	<ul class="navbar-nav mr-auto">
+          		<li class="nav-item">
+            		<a class="nav-link active" href="loginpage.html"><i class="fas fa-sign-in-alt"></i> Sign In<span class="sr-only">(current)</span></a>
+          		</li>
+          		<li class="nav-item">
+            		<a class="nav-link active" href="loginpage.html"><i class="fas fa-user-plus"></i> Sign Up</a>
+         		</li>          
+        	</ul>
+        	<form class="form-inline my-2 my-lg-0">
+        	 	<div class="input-group">
+          			<div class="input-group-prepend">
+           				<span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
+          			</div>
+          			<input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+         		</div>
+          		<button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-arrow-circle-right"></i></button>
+    		</form>
+        </div>
+    </nav>
+	<div class="container shdw mar">
+		<div class="row mar">
+			<div class="col-md-6 col-xs-12 justify-content-center vdo border" style="border-radius: 25px;">
+				<center>
+					<iframe width="90%" height="315" id="main-video" src="https://www.youtube.com/embed/ooJSgsB5fIE" allowtransparency="true" frameborder="0"></iframe>
+				</center>
+				<div class="col-md-12 col-xs-12 center" id="description">
+					<h4>Description</h4><div><span><i class="fa fa-quote-left fa-1x"></i></span><br>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<p id="p1">
+Cybersecurity refers to a set of techniques used to protect the integrity of networks, programs and data from attack, damage or unauthorized access.
+          </p></div>
+				</div>
+			</div>
+			<div class="col-md-6 col-xs-12">
+				<div class="row">
+			<div class="col-md-12 border " id="v-link" style=" margin: 2px;">
+				Introduction to Cyber Security <button class="btn" style="margin: 5px; float: right;" onclick="videoPlay(1)">Play</button>
+				</div>
+				<div class="col-md-12 border " id="v-link" style="border-radius: 25px border-;margin: 2px;">
+					What is Cyber Security?  <button class="btn" style="margin: 5px; float: right;" onclick="videoPlay(2)">Play</button>
+				</div>
+				<div class="col-md-12 border " id="v-link" style="margin: 2px;">
+					Cyber Security Skills Employers Want <button class="btn" style="margin: 5px; float: right;" onclick="videoPlay(3)">Play</button>
+				</div>
+				<div class="col-md-12 border " id="v-link" style="margin: 2px;">
+					Understanding the Basics of Cyber Security to prevent your digital Doomsday <button class="btn" style="margin: 5px; float: right;" onclick="videoPlay(4)">Play</button>
+				</div>
+				<div class="col-md-12 border " id="v-link" style="margin: 2px;">
+					Career in cybersecurity<button class="btn" style="margin: 5px; float: right;" onclick="videoPlay(5)">Play</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="row" style="margin: 5px; padding: 5px;">
+		<div class="col-xs-12 col-md-12">
+			<ul>
+				<li style="list-style: none;"><h5>Know More by Professional Developer Article</h5></li>
+				
+					<li id="deco"><a href="https://gbhackers.com/a-perfect-way-to-start-and-strengthen-your-cyber-security-career/" target="_blank"> A perfect way to Start and Strengthen your Cyber Security Career</a></li>
+				<li id="deco"><a href="https://www.quora.com/What-is-the-prerequisite-to-learn-Cyber-security" target="_blank"> What is the prerequisite to learn Cyber security? </a></li>
+        <li id="deco"><a href="https://medium.freecodecamp.org/so-you-want-to-work-in-security-bc6c10157d23" target="_blank">So, you want to work in security?</a></li>
+			
+			</ul>
+		</div>
+	</div>
+	<hr>
+	<div class="row" style="margin: 5px; padding: 5px;">
+		<div class="col-xs-12 col-md-12">
+			<h4>Trends And Analysis</h4>
+			<img src="" class="border" style="margin: 6px; border-radius: 5px;">
+			<div class="trends">
+				<h6>Types of attack in Business:</h6>
+				<img src="https://smallbiztrends.com/wp-content/uploads/2016/12/types-of-cyber-attacks.png" style="width:100%;height:auto;"> 
+				
+			
+				<img src="https://image.slidesharecdn.com/48d6c7ae-ba0f-487e-ae3f-e075f8ad4e56-160526041030/95/eccu-indian-job-statistics-version-3-1-5-638.jpg?cb=1464235893" style="width:100%;height:auto;" >
+				<h6>Top recruiters in Cybersecurity</h6>
+				<img src="https://www.checkmarx.com/wp-content/uploads/2016/08/1.png" style="width:100%;height:auto;">
+				<h6>cyber crimes in india</h6>
+				<img src="https://js.dazeinfo.com/wp-content/uploads/2015/01/number-of-cyber-crimes-in-india-2011-2015-e1420538247953.png" style="width:100%;height:auto;">
+        
+				<img src="https://qph.fs.quoracdn.net/main-qimg-07bdad8bb33377d9402805293b0bcc76" style="width:100%;height:auto;">
+			</div>
+		</div>
+	</div>
+</div>
+
+<hr>
+<div class="footer" style="width:100%;">
+	<div class="row">
+		<div class="col-md-4" style="margin: 15px auto;"><b>Important Links</b><br>About Us<br><a href="MeetOurTeam.php" style="color: white;">Contact Us</a><br>CSE</div>
+		<div class="col-md-4" style="margin: 15px auto;"><b><a href="MeetOurTeam.html" style="color: white;">Meet Our Team</a></b><br>Siddharth kumar verma</b><br>Rohan Saxena</b><br>Rushikesh Ghule</b><br>Rishi Aggarwal</div>
+		<div class="col-md-4" style="margin: 15px auto;"><b><a href="home1.html" style="color: white;">Xplore</a></b><br><a href="Trending.html" style="color: white;">Trending and Hot Topics</a></div>
+	</div>
+	<i style="margin: auto 5px;" class="fab fa-instagram"></i> | <i style="margin: auto 5px;" class="fab fa-twitter"></i></center></div></div>
+ </div>
+</body>
+</html>

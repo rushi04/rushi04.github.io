@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Project</title>
+  	<meta charset="utf-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 	<script defer src="https://use.fontawesome.com/releases/v5.0.4/js/all.js"></script>
+ 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  	<script>
+  		function videoPlay(argument) {
+  			// body...
+  			var s=document.getElementById("main-video");
+  			
+  			if(argument==0){
+  				s.src="https://www.youtube.com/embed/o2cbErKRb_w?";
+  			}else if(argument==1){
+  				s.src="https://www.youtube.com/embed/wqH9KX9o0vg?";
+  			}else if (argument==2) {
+  				s.src="https://www.youtube.com/embed/mJeNghZXtMo?";
+  			}
+  			else if (argument==3) {
+  				s.src="https://www.youtube.com/embed/8o9QxMxhTp8?";
+  			}
+  			else if(argument==4){
+  				s.src="https://www.youtube.com/embed/iF8dRePlPUo?";
+  			}
+  			else if(argument==5){
+  				s.src="https://www.youtube.com/embed/WSbgixdC9g8?";
+  			}
+  			else if(argument==6){
+  				s.src="https://www.youtube.com/embed/aeHqYLgZP84?";
+  			}
+  			else if(argument==7){
+  				s.src="https://www.youtube.com/embed/MuZAsIJ7gSQ?";
+  			}
+  			else if(argument==8){
+  				s.src="https://www.youtube.com/embed/vvsfM5Dixow?";
+  			}
+  		}
+  	</script>
+  	<style>
+		.button {
+	    	background-color: #4CAF50;
+	   		border: none;
+	    	color: white;
+	    	padding: 15px 32px;
+	    	text-align: center;
+	    	text-decoration: none;
+	    	display: inline-block;
+	    	font-size: 16px;
+	   	 	margin-left:auto;
+		    margin-right:auto;
+    		cursor: pointer;
+		}
+
+		.footer {
+ 			left: 0;
+		    bottom: 0;
+	    	width: 100%;
+   			background-color: black;
+    		color: white;
+    		text-align: center;
+		}
+
+		.pad{
+  			margin-top:2%;
+		}
+
+		.shdw{
+  			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		#v-link{
+			border-radius: 25px;
+			border-top-right-radius: 0px;
+			border-bottom-left-radius: 0px;
+		}
+		#v-link:hover{
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+		}
+		.mar{
+			padding:1%;
+		}
+		.rad
+		{
+			radius:50%;
+		}
+		.btn-circle {
+			width: 30px;
+			height: 30px;
+  			text-align: center;
+  			padding: 6px 0;
+  			font-size: 12px;
+  			line-height: 1.428571429;
+  			border-radius: 15px;
+		}
+		.btn-circle.btn-lg {
+  			width: 50px;
+  			height: 50px;
+  			padding: 10px 16px;
+  			font-size: 18px;
+  			line-height: 1.33;
+  			border-radius: 25px;
+		}
+		.btn-circle.btn-xl {
+  			width: 70px;
+  			height: 70px;
+  			padding: 10px 16px;
+  			font-size: 24px;
+  			line-height: 1.33;
+  			border-radius: 35px;
+		}
+		li{
+			margin: 7px;
+			padding: 4px;
+		}
+		a{
+			color: black;
+		}
+		a:hover{
+			text-decoration: none;
+			color: black;
+		}
+		#deco{
+			border-left: 6px solid lightgrey;
+		    background-color: lightgrey;
+		}
+		#deco:hover{
+			border-left: 6px solid black;
+		    background-color: lightgrey;
+		}
+		.vdo{
+			padding: 1%;
+		}
+		.trends{
+			text-align: center;
+		}
+		.trends img{
+				margin: 15px auto;
+		}
+		#main-video{
+			border-radius: 5px;
+		}
+		#v-link button{
+			float: right;
+		}
+		.TrendArticle{
+			width:97%;
+			height: 250px;
+		}
+		.container img{
+			width: 50%;
+		}
+	</style>
+</head>
+<body style="height:1500px">
+  	<div class="container-fluid">
+    	<br>
+    	<img src="Logo.png" style="margin: -10px auto;">
+  	</div>
+ 	<nav class="navbar navbar-expand-lg bg-light navbar-light fixed-top sticky-top shdw1">
+      	<a class="navbar-brand mb-0 h1" href="home1.html">Xplore</a>
+      	<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarcontent" arial-controls="navbarcontent" arial-expanded="false" arial-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      	</button>
+      
+      	<div class="collapse navbar-collapse" id="navbarcontent">
+        	<ul class="navbar-nav mr-auto">
+          		<li class="nav-item active">
+            		<a class="nav-link" href="home1.html">Home<span class="sr-only">(current)</span></a>
+          		</li>
+          		<li class="nav-item">
+           			<a class="nav-link" href="CSE.php">CSE</a>
+         		</li>
+          		<li class="nav-item dropdown">
+            		<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">More</a>
+            		<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          				<a class="dropdown-item" href="#">About US</a>
+          				<a class="dropdown-item" href="MeetOurTeam.html">Contact Us</a>
+          				<div class="dropdown-divider"></div>
+        			</div>
+          		</li>
+        	</ul>
+        	<ul class="navbar-nav mr-auto">
+          		<li class="nav-item">
+            		<a class="nav-link active" href="loginpage.html"><i class="fas fa-sign-in-alt"></i> Sign In<span class="sr-only">(current)</span></a>
+          		</li>
+          		<li class="nav-item">
+            		<a class="nav-link active" href="loginpage.html"><i class="fas fa-user-plus"></i> Sign Up</a>
+         		</li>          
+        	</ul>
+        	<form class="form-inline my-2 my-lg-0">
+        	 	<div class="input-group">
+          			<div class="input-group-prepend">
+           				<span class="input-group-text" id="basic-addon1"><i class="fas fa-search"></i></span>
+          			</div>
+          			<input type="text" class="form-control" placeholder="Search" aria-label="Search" aria-describedby="basic-addon1">
+         		</div>
+          		<button class="btn btn-outline-success my-2 my-sm-0" type="submit"><i class="fas fa-arrow-circle-right"></i></button>
+    		</form>
+        </div>
+    </nav>
+	<div class="container shdw mar">
+		<div class="row mar">
+			<div class="col-md-6 col-xs-12 justify-content-center vdo border" style="border-radius: 25px;">
+				<center>
+					<iframe width="420" height="315" id="main-video"src="https://www.youtube.com/embed/o2cbErKRb_w?" allowtransparency="true" frameborder="0"></iframe>
+				</center>
+				<div class="col-md-12 col-xs-12 center">
+					<h4>Description</h4><p><span><i class="fa fa-quote-left fa-1x"></i></span><br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Top Trending Technologies which are going to drive future. Learn about them.</p>
+					<div style="float: right; font-size: 12px; "><b>source</b>:YouTube</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-xs-12">
+				<div class="row">
+					<div class="col-md-12 border " id="v-link" style="margin: 2px;">
+					<a href="#l1"><button class="btn" style="margin: 5px;">Read</button></a>Trending and Hot Topics<button class="btn" style="margin: 5px;" onclick="videoPlay(0)">Play</button>
+				</div>
+				<div class="col-md-12 border " id="v-link" style=" margin: 2px;">
+					<a href="#l2"><button class="btn" style="margin: 5px;">Read</button></a>What is Li-Fi??<button class="btn" style="margin: 5px;" onclick="videoPlay(1)">Play</button>
+				</div>
+				<div class="col-md-12 border " id="v-link" style="border-radius: 25px border-;margin: 2px;">
+					<a href="#l3"><button class="btn" style="margin: 5px;">Read</button></a>What is AI??<button class="btn" style="margin: 5px;" onclick="videoPlay(2)" style="float: left;">Play</button>
+				</div>
+				<div class="col-md-12 border " id="v-link" style="margin: 2px;">
+					<a href="#l4"><button class="btn" style="margin: 5px;">Read</button></a>What is Blockchain??<button class="btn" style="margin: 5px;" onclick="videoPlay(3)">Play</button>
+				</div>
+				<div class="col-md-12 border " id="v-link" style="margin: 2px;">
+					<a href="#l5"><button class="btn" style="margin: 5px;">Read</button></a>What is Deep Learning??<button  class="btn" style="margin: 5px;" onclick="videoPlay(4)">Play</button>
+				</div>
+				<div class="col-md-12 border " id="v-link" style="margin: 2px;">
+					<a href="#l5"><button class="btn" style="margin: 5px;">Read</button></a>AI Vs Deep Learning Vs Machine Learning??<button class="btn" style="margin: 5px;"  onclick="videoPlay(5)">Play</button>
+				</div>
+				<div class="col-md-12 border " id="v-link" style="margin: 2px;">
+					<a href="#l6"><button class="btn" style="margin: 5px;">Read</button></a>What is Big Data Analytics??<button class="btn" style="margin: 5px;"  onclick="videoPlay(6)">Play</button>
+				</div>
+				<div class="col-md-12 border " id="v-link" style="margin: 2px;">
+					<a href="#l7"><button class="btn" style="margin: 5px;">Read</button></a>What is Bio Informatics??<button class="btn" style="margin: 5px;" onclick="videoPlay(7)">Play</button>
+				</div>
+				<div class="col-md-12 border " id="v-link" style="margin: 2px;">
+					<a href="#l8"><button class="btn" style="margin: 5px;">Read</button></a>What is CyberSecurity??<button class="btn" style="margin: 5px;" onclick="videoPlay(8)">Play</button>
+				</div>
+				<div style="float: right; font-size: 12px; "><b>source</b>:YouTube</div>
+			</div>
+		</div>
+	</div>
+	<hr>
+	<div class="row" style="margin: 5px; padding: 5px;">
+		<div class="col-xs-12 col-md-12">
+			<ul>
+				<li style="list-style: none;"><h5>Read More About Trending Topics and Technologies in Computer Science</h5></li>
+				<li id="deco"><h4 id="l1">Top 10 Technology Trends for 2018</h4>
+					<a href="https://prnewswire.com/news-releases/top-10-technology-trends-for-2018-ieee-computer-society-predicts-the-future-of-tech-300571274.html" target="_blank"><p> Read More...</p><p style=" font-size: 12px; "><b>source</b>:prnewswire.com</p></a>
+					<br>
+					<a href="https://medium.com/activewizards-machine-learning-company/the-top-10-technology-trends-of-2018-5fce940c7ce6" target="_blank"><p> Read More...</p><p style=" font-size: 12px; "><b>source</b>:medium.com</p></a></li>
+					<div style="text-align: center;"><ol><li>Deep learning (DL)</li><li>Digital currencies</li><li>Blockchain</li><li>Industrial IoT</li><li>Robotics</li><li>Assisted transportation</li><li>Assisted transportation</li><li>Ethics, laws, and policies for privacy, security, and liability</li><li>Accelerators and 3D</li><li>Cybersecurity</li><p style="float: right; font-size: 12px; margin: 5px;"><b>source</b>:prnewswire.com</p>
+					</ol></div><br><br>
+					<li id="deco"><h4 id="l2">Learn About Li-Fi</h4>
+					<a href="https://whatis.techtarget.com/definition/LiFi" target="_blank"><h6>What is Li-Fi</h6><p style=" font-size: 12px; "><b>source</b>:whatis.com</p></a>
+					<br>
+					<a href="https://sites.google.com/a/ewg.k12.ri.us/li-fi/future-of-li-f" target="_blank"><h6>Future of Li-Fi</h6><p style=" font-size: 12px; "><b>source</b>:sites.google.com</p></a></li>
+					<li id="deco"><h4 id="l3">Learn About Artificial Intellligence</h4>
+					<a href="https://en.wikipedia.org/wiki/Artificial_intelligence" target="_blank"><h6>What is Artificial Intelligence</h6><p style=" font-size: 12px; "><b>source</b>:wikipedia.com</p></a>
+					<br>
+					<a href="https://data-flair.training/blogs/artificial-intelligence-future/" target="_blank"><h6>Future of Artificial Intelligence – AI Scope and Career Opportunities</h6><p style=" font-size: 12px; "><b>source</b>:data-flair.trainig</p></a><br>
+					<a href="https://analyticstraining.com/the-scope-of-jobs-with-artificial-intelligence-and-machine-learning/" target="_blank"><h6>The Scope Of Jobs With Artificial Intelligence And Machine Learning</h6><p style=" font-size: 12px; "><b>source</b>:analyticstraining.com</p></a></li>
+					<div class="row" style="margin: 5px; padding: 5px; background-color: white">
+						<div class="col-xs-12 col-md-12">
+							<h4>Treands And Analysis</h4>
+							<img src="" class="border" style="margin: 6px; border-radius: 5px;">
+								<div class="trends">
+								<img src="AI!.jpg">
+								<h6></h6>
+								<img src="AI2.jpg">
+						</div>
+					</div>
+				</div>
+					<li id="deco"><h4 id="l4">Learn About Block Chain</h4>
+					<a href="https://www.digitaltrends.com/computing/what-is-a-blockchain/" target="_blank"><h6>What is BlockChain</h6><p style=" font-size: 12px; "><b>source</b>:digitaltrends.com</p></a>
+					<br>
+					<a href="https://www.linkedin.com/pulse/brief-introduction-blockchain-technology-future-scope-academy" target="_blank"><h6>Future scope of Blockchain</h6><p style=" font-size: 12px; "><b>source</b>:linkedin.com</p></a></li>
+					<div class="row" style="margin: 5px; padding: 5px; background-color: white">
+						<div class="col-xs-12 col-md-12">
+							<h4>Treands And Analysis</h4>
+							<img src="" class="border" style="margin: 6px; border-radius: 5px;">
+								<div class="trends">
+								<img src="blockchain1.png">
+						</div>
+					</div>
+				</div>
+					<li id="deco"><h4 id="l5">Learn About Deep Learning</h4>
+					<a href="https://www.datascience.com/blog/what-is-deep-learning" target="_blank"><h6>What is Deep Learning</h6><p style=" font-size: 12px; "><b>source</b>:datascience.com</p></a>
+					<br>
+					<a href="https://www.theguardian.com/technology/2016/jun/28/google-says-machine-learning-is-the-future-so-i-tried-it-myself" target="_blank"><h6>Google says machine learning is Future</h6><p style=" font-size: 12px; "><b>source</b>:theguardian.com</p></a>
+				<br>
+					<a href="https://www.theguardian.com/technology/2016/jun/28/google-says-machine-learning-is-the-future-so-i-tried-it-myself" target="_blank"><h6>What Is The Difference Between Deep Learning, Machine Learning and AI?</h6><p style=" font-size: 12px; "><b>source</b>:forbes.com</p></a></li>
+					<div class="row" style="margin: 5px; padding: 5px; background-color: white">
+						<div class="col-xs-12 col-md-12">
+							<h4>Treands And Analysis</h4>
+							<img src="" class="border" style="margin: 6px; border-radius: 5px;">
+								<div class="trends">
+								<h6><p style="float: right;"><b>source</b>:medium.com</p></h6>
+								<img src="DeepLearning1.png">
+
+								<h6></h6>
+								<img src="DeepLearning2.jpg">
+						</div>
+					</div>
+				</div>
+					<li id="deco"><h4 id="l6">Learn About Big Data Analytics</h4>
+					<a href="https://www.oracle.com/in/big-data/guide/what-is-big-data.html" target="_blank"><h6>What is Big Data</h6><p style=" font-size: 12px; "><b>source</b>:oracle.com</p></a>
+					<br>
+					<a https://www.edureka.co/blog/10-reasons-why-big-data-analytics-is-the-best-career-move" target="_blank"><h6>Reasons Why Big Data Analytics is the Best Career Move</h6><p style=" font-size: 12px; "><b>source</b>:edureka.com</p></a></li>
+					<div class="row" style="margin: 5px; padding: 5px; background-color: white">
+						<div class="col-xs-12 col-md-12">
+							<h4>Treands And Analysis</h4>
+							<img src="" class="border" style="margin: 6px; border-radius: 5px;">
+								<div class="trends">
+								<img src="bigdata.png">
+						</div>
+					</div>
+				</div>
+					<li id="deco"><h4 id="l7">Learn About Bio Informatics</h4>
+					<a href="https://learn.org/articles/What_is_Bioinformatics.html" target="_blank"><h6>What is Bio Informatics</h6><p style=" font-size: 12px; "><b>source</b>:learn.org</p></a>
+					<br></li>
+					<div class="row" style="margin: 5px; padding: 5px; background-color: white">
+						<div class="col-xs-12 col-md-12">
+							<h4>Treands And Analysis</h4>
+							<img src="" class="border" style="margin: 6px; border-radius: 5px;">
+								<div class="trends">
+								<img src="bioinformatics1.png">
+								<h6><p style="float: right;"><b>source</b>:bign2n.ugent.be</p></h6>
+						</div>
+					</div>
+				</div>
+					<li id="deco"><h4 id="l8">All About Cyber security</h4>
+					<a href="https://www.monster.com/career-advice/article/future-of-cybersecurity-jobs" target="_blank"><h6>The Future of Cybersecurity Jobs</h6><p style=" font-size: 12px; "><b>source</b>:monster.com</p></a>
+					<br></li>
+					<div class="row" style="margin: 5px; padding: 5px; background-color: white">
+						<div class="col-xs-12 col-md-12">
+							<h4>Treands And Analysis</h4>
+							<img src="" class="border" style="margin: 6px; border-radius: 5px;">
+								<div class="trends">
+								<img src="cybersecurity1.png">
+								<h6><p style="float: right;"><b>source</b>:bign2n.ugent.be</p></h6>
+						</div>
+					</div>
+				</div>
+			</ul>
+		</div>
+	</div>
+</div>
+
+<hr>
+<div class="footer" style="width:100%;">
+	<div class="row">
+		<div class="col-md-4" style="margin: 15px auto;"><b>Important Links</b><br>About Us<br><a href="MeetOurTeam.php" style="color: white;">Contact Us</a><br>CSE</div>
+		<div class="col-md-4" style="margin: 15px auto;"><b><a href="MeetOurTeam.html" style="color: white;">Meet Our Team</a></b><br>Siddharth kumar verma</b><br>Rohan Saxena</b><br>Rushikesh Ghule</b><br>Rishi Aggarwal</div>
+		<div class="col-md-4" style="margin: 15px auto;"><b><a href="home1.html" style="color: white;">Xplore</a></b><br><a href="WebDeveloper.html" style="color: white;">Web Developer</a></div>
+	</div>
+	<i style="margin: auto 5px;" class="fab fa-instagram"></i> | <i style="margin: auto 5px;" class="fab fa-twitter"></i></center></div></div>
+ </div>
+</body>
+</html>
